@@ -1,5 +1,6 @@
 class Puppy
 
+  @@all = []
   attr_accessor :name, :breed, :age
 
   def initialize
@@ -9,7 +10,7 @@ class Puppy
   end
 
   def self.save
-
+    @@all << self
   end
 
 
