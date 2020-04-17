@@ -15,9 +15,9 @@ class Puppy
 
 
 end
-#   can create a new instance of the puppy class (FAILED - 1)
-#   can read a puppy name (FAILED - 2)
-#   can read a puppy breed (FAILED - 3)
-#   can read a puppy age in months (puppy#age) (FAILED - 4)
-#   can change puppy age in months (puppy#age=) (FAILED - 5)
-#   can change puppy name (FAILED - 6)
+#   can create a new instance of the puppy class
+#   can read a puppy name
+#   can read a puppy breed
+#   can read a puppy age in months (puppy#age)
+#   can change puppy age in months (puppy#age=)
+#   can change puppy name
