@@ -2,6 +2,16 @@ class Puppy
 
   attr_accessor :name, :breed, :age
 
+  def initialize
+    @name = name
+    @breed = breed
+    @age = age
+  end
+
+  def self.save
+
+  end
+
 
 end
 #   can create a new instance of the puppy class (FAILED - 1)
