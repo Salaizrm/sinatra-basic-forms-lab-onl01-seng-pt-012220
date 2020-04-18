@@ -13,6 +13,10 @@ class Puppy
     @@all << self
   end
 
+  def self.all
+    @@all
+  end
+
 
 end
 #   can create a new instance of the puppy class
