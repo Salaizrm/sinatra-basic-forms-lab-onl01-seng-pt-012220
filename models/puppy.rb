@@ -1,6 +1,5 @@
 class Puppy
 
-  @@all = []
   attr_accessor :name, :breed, :age
 
   def initialize(name,breed,age)
@@ -8,15 +7,6 @@ class Puppy
     @breed = breed
     @age = age
   end
-
-  def self.save
-    @@all << self
-  end
-
-  def self.all
-    @@all
-  end
-
 
 end
 #   can create a new instance of the puppy class
